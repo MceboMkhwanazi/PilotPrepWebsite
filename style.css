@@ -115,7 +115,7 @@ input, select {
 .navigationContainer a {
     float: right;
     color:aquamarine;
-    font-size: 23px;
+    font-size: 20px;
     text-decoration: none;
     padding: 20px 20px
 }
@@ -125,7 +125,6 @@ input, select {
     flex-direction: column;
     justify-content: center;
     height: 200px;
-
 }
 
 .section1Container h1 {
@@ -139,12 +138,12 @@ input, select {
     font-size: larger;
 }
 
-.sec2Container {
+.section2Container {
     display: flex;
     justify-content: center;
 }
 
-.section2Container {
+.sec2MiniContainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -166,26 +165,62 @@ input, select {
 
 .section3Container {
     display: flex;
+    background-color: brown;
+    flex-direction: column;
+}
+
+.section3Container .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.section3Container img {
+    float: right;
+    width: 400px;
+}
+
+.sec3Cards {
+    display: flex;
     justify-content: space-around;
     align-items:center;
     margin: 30px;
 }
 
-.card {
+.section4Container {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 30px;
+}
+
+.section4Container div {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(185, 185, 185);
+    background-color: darkgrey;
     padding: 30px;
     border-radius: 10px;
     height: 250px;
+    
 }
 
-.card img {
+.section4Container img {
     border-radius: 15px;
     height: 100px;
     width: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
 }
