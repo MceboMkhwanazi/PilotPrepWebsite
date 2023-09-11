@@ -165,28 +165,21 @@ input, select {
 
 .section3Container {
     display: flex;
-    background-color: brown;
     flex-direction: column;
-}
-
-.section3Container .card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: antiquewhite;
-}
-
-.section3Container img {
-    float: right;
-    width: 400px;
-}
-
-.sec3Cards {
-    display: flex;
     justify-content: space-around;
     align-items:center;
     margin: 30px;
+}
+
+.section3Container div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkgrey;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .section4Container {
