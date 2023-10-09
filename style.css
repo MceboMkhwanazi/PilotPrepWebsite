@@ -102,7 +102,7 @@ input, select {
 }
 
 /* This is Mcebo's styling */
-/**/
+
 
 .navigationContainer {
     display: flex;
@@ -120,17 +120,26 @@ input, select {
     padding: 20px 20px
 }
 
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
 .section1Container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    
 }
 
 .section1Container h1 {
     text-align: center;
     font-size: 50px;
-    margin: 25px;
+    margin: 20px;
 }
 
 .section1Container p {
@@ -141,6 +150,7 @@ input, select {
 .section2Container {
     display: flex;
     justify-content: center;
+    margin: 80px;
 }
 
 .sec2MiniContainer {
@@ -156,6 +166,10 @@ input, select {
     width: 800px;
 }
 
+.section2Container p {
+    text-align: center;
+}
+
 .section2Container img {
     width: 400px;
     height: auto;
@@ -163,33 +177,15 @@ input, select {
     margin-bottom: 50px;
 }
 
+
 .section3Container {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items:center;
-    margin: 30px;
+    margin: 80px;
 }
 
 .section3Container div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: darkgrey;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-.section4Container {
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    margin: 30px;
-}
-
-.section4Container div {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -202,18 +198,36 @@ input, select {
     
 }
 
-.section4Container img {
+.section3Container img {
     border-radius: 15px;
     height: 100px;
     width: auto;
     margin-bottom: 30px;
 }
 
-.button {
-    display: inline-block;
-    text-decoration: none;
-    background-color: aqua;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 30px;
+.section4Container {
+    display:flex;
+    justify-content: center;
+}
+
+.sec4MiniContainer {
+    height: 100px;
+    width: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sec4MiniContainer img {
+    height: 100px;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footerIcons i {
+    padding-left: 10px;
+    padding-right: 10px;
 }
